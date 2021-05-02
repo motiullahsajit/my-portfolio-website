@@ -12,7 +12,7 @@ const Main = () => {
             <About />
             <Projects />
             <Blogs />
-            <Contact />
+            <Contact id='contact' />
         </main>
     );
 };

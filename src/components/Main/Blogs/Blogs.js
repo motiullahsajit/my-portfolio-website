@@ -1,13 +1,19 @@
 import React from 'react';
 import Blog from '../Blog/Blog';
+import { Blogsdata } from './BlogsData';
 
 const Blogs = () => {
+    const blogs = Blogsdata;
     return (
-        <section>
-            <h1>This is blogs</h1>
-            <Blog/>
-            <Blog/>
-            <Blog/>
+        <section style={{ backgroundColor: "#F9F9FF" }} className='container-fluid py-5'>
+            <div className="container py-5">
+                <h1 className='text-center mb-5'>My blogs</h1>
+                <div className="row g-5 mx-auto">
+                    {
+                        blogs.map(blog => <Blog key={blog.id} blog={blog} />)
+                    }
+                </div>
+            </div>
         </section>
     );
 };
