@@ -7,13 +7,11 @@ import './Project.css';
 
 const Project = (props) => {
     const { name, category, technologies, images, description, liveSite, clientSite, serverSite } = props.project;
-
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
-
     };
+    
     return (
         <div className="container project mb-4">
             <div className="row align-items-center bg-white px-2 py-3">

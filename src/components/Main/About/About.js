@@ -13,7 +13,7 @@ const About = () => {
                     </div>
                     <div className="col-md-6 skills">
                         <h3 className='color-brand'>Skills</h3>
-                        <p className='about-text'><strong>Comfortable:</strong> JavaScript, ES6, React.js, React-Bootstrap, HTML, CSS, Bootstrap, Node.js,
+                        <p className='about-text'><strong>Comfortable:</strong> JavaScript(ES6), React.js, React-Bootstrap, HTML, CSS, Bootstrap, Node.js,
                         Express.js, MongoDB, Firebase, Heroku, Netlify
                         </p>
                         <p className='about-text'><strong>Familiar:</strong> Redux, Material-UI, SCSS, React Native</p>

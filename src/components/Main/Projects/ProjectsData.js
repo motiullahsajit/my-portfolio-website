@@ -10,7 +10,7 @@ const ProjectsData = [
             img3: 'https://i.ibb.co/Ln8v5QJ/ch-img-3.png',
         },
         description: "Website for a cycle repair shop. Users can purchase services with stripe payment, give reviews and check their order status. Admins can control the site from the dashboard, such as add new services, new admin, manage order status and reviews. For authentication firebase login system and JWT token is used.",
-        cilentSite: 'https://github.com/motiullahsajit/Cycle-Health-Clientt',
+        clientSite: 'https://github.com/motiullahsajit/Cycle-Health-Clientt',
         liveSite: 'https://cycle-health.web.app/',
         serverSite: 'https://github.com/motiullahsajit/Cycle-Health-Server',
     },
@@ -25,7 +25,7 @@ const ProjectsData = [
             img3: 'https://i.ibb.co/2kGxbNV/ec-img-3.png',
         },
         description: "E-commerce store website. Users can order products and check their order history. Admin can add, update and delete products. To authenticate user firebase login system is used.",
-        cilentSite: 'https://github.com/motiullahsajit/Daily-Grocery-Client',
+        clientSite: 'https://github.com/motiullahsajit/Daily-Grocery-Client',
         liveSite: 'https://daily-grocery-b2c1c.web.app/',
         serverSite: 'https://github.com/motiullahsajit/Daily-Grocery-Server'
     },
@@ -40,7 +40,7 @@ const ProjectsData = [
             img3: 'https://i.ibb.co/x2xHwPb/at-img-3.png',
         },
         description: "This is a Ride Sharing website. Users can book ride with the location and the package they want. The location distance will be shown on the google map.",
-        cilentSite: 'https://github.com/motiullahsajit/Awesome-Transport',
+        clientSite: 'https://github.com/motiullahsajit/Awesome-Transport',
         liveSite: 'https://awesome-transport.web.app/'
     }
 ]
