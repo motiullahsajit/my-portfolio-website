@@ -1,6 +1,8 @@
-.container-fluid-bg{
-    background-color: #F9F9FF;
+.about-text{
+    font-size: 1.3em;
+    font-weight: 400;
 }
-.container-bg{
-    background-color: #ffffff;
+.skills{
+    border-left: 2px solid #333;
+    padding-left: 1em;
 }

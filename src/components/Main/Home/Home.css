@@ -1,5 +1,7 @@
 .home{
-    background-color: #353353;
+    background-image: url('../../../images/Screenshot\ 2021-05-03\ 060215.png');
     color: aliceblue;
-    padding: 5em 0em 3em 0em;
+    background-position: center center;
+    background-size: cover;
+    padding: 4em 0em 3em 0em;
 }

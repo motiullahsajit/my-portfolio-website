@@ -4,13 +4,13 @@ import { Link } from "react-scroll";
 
 const Header = () => {
     return (
-        <header className='header sticky-top'>
-            <nav className="navbar navbar-expand-lg navbar-light">
+        <header className='header sticky-top bg-brand'>
+            <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link className="nav-link text-white" activeClass="active"
@@ -51,6 +51,9 @@ const Header = () => {
                                     smooth={true}
                                     offset={-70}
                                     duration={400}>Contact</Link>
+                            </li>
+                            <li className="nav-item">
+                            <a  className="nav-link text-white" href='https://drive.google.com/file/d/11vbCqXopQuQyZGIPRq7qELOt0JOH2sj6/view'>My resume</a>
                             </li>
                         </ul>
                     </div>

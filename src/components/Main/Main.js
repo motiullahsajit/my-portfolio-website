@@ -7,7 +7,7 @@ import Projects from './Projects/Projects';
 
 const Main = () => {
     return (
-        <main>
+        <main className='bg-brand-light'>
             <Home />
             <About />
             <Projects />

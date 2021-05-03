@@ -6,7 +6,7 @@ const ProjectsData = [
         technologies: `React, Bootstrap, Node.js, Express.js, MongoDB, Stripe, Firebase Authentication, Heroku`,
         images: {
             img1: 'https://i.ibb.co/WKVHQ01/ch-img-1.png',
-            img2: 'https://i.ibb.co/6nVrJtX/ch-img-2.png',
+            img2: 'https://i.ibb.co/3z2wk40/ch-img-2.png',
             img3: 'https://i.ibb.co/Ln8v5QJ/ch-img-3.png',
         },
         description: "Website for a cycle repair shop. Users can purchase services with stripe payment, give reviews and check their order status. Admins can control the site from the dashboard, such as add new services, new admin, manage order status and reviews. For authentication firebase login system and JWT token is used.",
@@ -20,8 +20,8 @@ const ProjectsData = [
         category: 'MERN stack website',
         technologies: `React, Bootstrap, Node.js, Express.js, MongoDB, Firebase Authentication, Heroku`,
         images: {
-            img1: 'https://i.ibb.co/0tpxD5r/ec-img-1.png',
-            img2: 'https://i.ibb.co/vZz4YhB/ec-img-2.png',
+            img1: 'https://i.ibb.co/DPB9ppx/ec-img-1.png',
+            img2: 'https://i.ibb.co/6Hd0xqX/ec-img-2.png',
             img3: 'https://i.ibb.co/2kGxbNV/ec-img-3.png',
         },
         description: "E-commerce store website. Users can order products and check their order history. Admin can add, update and delete products. To authenticate user firebase login system is used.",
