@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-import myImg from '../../../images/myimg.png';
+import myImg from '../../../images/sajit.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faMediumM } from '@fortawesome/free-brands-svg-icons';
 
