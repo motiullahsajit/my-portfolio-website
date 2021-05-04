@@ -1,20 +1,24 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Project.css';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Project = (props) => {
+    useEffect(() => {
+        Aos.init({ duration: 1500 })
+      }, [])
     const { name, category, technologies, images, description, liveSite, clientSite, serverSite } = props.project;
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
-    
+
     return (
-        <div className="container project mb-4">
-            <div className="row align-items-center bg-white px-2 py-3">
+            <div data-aos="zoom-in-up" className="row align-items-center bg-white px-2 py-3 my-4">
                 <div className="col-md-7 pb-2">
                     <h3 className='color-brand'>{name} | {category}</h3>
                     <p className='text-dark'>{description}</p>
@@ -51,7 +55,6 @@ const Project = (props) => {
                     </Carousel>
                 </div>
             </div>
-        </div>
     );
 };
 

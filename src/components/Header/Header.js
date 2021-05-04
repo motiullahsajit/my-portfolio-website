@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Header = () => {
     return (
         <header className='header sticky-top bg-brand'>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
