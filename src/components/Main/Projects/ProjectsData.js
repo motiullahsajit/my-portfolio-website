@@ -3,7 +3,7 @@ const ProjectsData = [
         id: 1,
         name: 'Cycle Health',
         category: 'MERN stack website.',
-        technologies: `React, Bootstrap, Node.js, Express.js, MongoDB, Stripe, Firebase Authentication, Heroku`,
+        technologies: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Stripe", "Firebase", "Heroku"],
         images: {
             img1: 'https://i.ibb.co/WKVHQ01/ch-img-1.png',
             img2: 'https://i.ibb.co/3z2wk40/ch-img-2.png',
@@ -18,7 +18,7 @@ const ProjectsData = [
         id: 2,
         name: 'Daily Grocery',
         category: 'MERN stack website',
-        technologies: `React, Bootstrap, Node.js, Express.js, MongoDB, Firebase Authentication, Heroku`,
+        technologies: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB","Firebase", "Heroku"],
         images: {
             img1: 'https://i.ibb.co/DPB9ppx/ec-img-1.png',
             img2: 'https://i.ibb.co/6Hd0xqX/ec-img-2.png',
@@ -33,7 +33,7 @@ const ProjectsData = [
         id: 3,
         name: 'Awesome Transport',
         category: 'React website',
-        technologies: `React, Bootstrap, React-router, Firebase Authentication, Heroku, React-google-map`,
+        technologies: ["React","React-router", "Bootstrap","React-google-map", "Firebase"],
         images: {
             img1: 'https://i.ibb.co/MG8Hypr/at-img-1.png',
             img2: 'https://i.ibb.co/0CzVgk9/at-img-2.png',

@@ -20,9 +20,10 @@ const Project = (props) => {
     return (
             <div data-aos="zoom-in-up" className="row align-items-center bg-white px-2 py-3 my-4">
                 <div className="col-md-7 pb-2">
-                    <h3 className='color-brand'>{name} | {category}</h3>
+                    <h3 className='color-brand'>{name}</h3>
+                    <h5>{category}</h5>
                     <p className='text-dark'>{description}</p>
-                    <p><strong className='color-brand'>Technology:</strong> <span className="green-yellow-text">{technologies}</span></p>
+                    <p><span className='color-brand fs-4'>Technology:</span> <span className="green-yellow-text">{technologies.map(technologie => <span className='badge bg-secondary mx-1 px-3 py-2'>{technologie}</span>)}</span></p>
                     <div className="mt-4 site-link">
                         <a className="badge rounded-pill bg-success mx-1" rel="noreferrer" target='_blank' href={liveSite}><FontAwesomeIcon icon={faWindowMaximize} /> Live Site</a>
                         <a className="badge rounded-pill bg-warning mx-1" rel="noreferrer" target='_blank' href={clientSite}><FontAwesomeIcon icon={faGithub} /> Client Site</a>
