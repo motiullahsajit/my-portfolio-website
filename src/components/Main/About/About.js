@@ -19,7 +19,7 @@ const About = () => {
                 <div className="row p-3 align-items-center bg-white">
                     <div className="col-md-5 my-3">
                         <h4 className='color-brand'>I'm a Front-End developer,</h4>
-                        <p>Who is a self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local &#38; multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                        <p>Who is a self-motivated and enthusiastic with a deep interest in JavaScript. Want to work in the Software industry with modern web technologies of different local &#38; multinational Software/ IT agencies and grow rapidly with increasing responsibilities.</p>
                         <a className='btn btn-danger' href="https://drive.google.com/uc?export=download&amp;id=11vbCqXopQuQyZGIPRq7qELOt0JOH2sj6">Download Resume</a>
                     </div>
                     <div className="col-md-7 skills my-3">
