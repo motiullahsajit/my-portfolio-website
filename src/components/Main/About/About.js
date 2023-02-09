@@ -3,9 +3,8 @@ import './About.css'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
-const expertise = ["JavaScript(ES6)", "React.js", "React-Bootstrap", "Html", "CSS", "Bootstrap"];
-const comfortables = ["Node.js", "Express.js", "MongoDB", "Firebase", "Heroku", "Netlify"];
-const familiars = ["Redux", "Material-UI", "SCSS", "React Native"];
+const expertise = ["C","JavaScript", "React.js","Node.js","Html", "CSS"];
+const comfortables = ["Express.js", "MongoDB", "React Native"];
 const tools = ["Git", "GitHub", "Vs Code", "NPM", "Chrome Dev Tools", "Adobe Xd", "Figma"];
 
 const About = () => {
@@ -14,11 +13,11 @@ const About = () => {
     }, [])
 
     return (
-        <section data-aos="zoom-in" id='about' className='container-fuild my-5 container-fluid-bg'>
+        <section data-aos="fade-up" id='about' className='container-fuild my-5 container-fluid-bg'>
             <div className="container d-flex justify-content-center">
                 <div className="row p-3 align-items-center bg-white">
                     <div className="col-md-5 my-3">
-                        <h4 className='color-brand'>I'm a Front-End developer,</h4>
+                        <h4 className='color-brand'>I'm a Web developer,</h4>
                         <p>Who is a self-motivated and enthusiastic with a deep interest in JavaScript. Want to work in the Software industry with modern web technologies of different local &#38; multinational Software/ IT agencies and grow rapidly with increasing responsibilities.</p>
                         <a className='btn btn-danger' href="https://drive.google.com/uc?export=download&amp;id=11vbCqXopQuQyZGIPRq7qELOt0JOH2sj6">Download Resume</a>
                     </div>
@@ -28,7 +27,6 @@ const About = () => {
                         </p>
                         <p><strong className='fs-4'>Comfortable: </strong>{comfortables.map(comfortable => <span className='badge pill bg-secondary mx-1 p-2'>{comfortable}</span>)}
                         </p>
-                        <p><strong className='fs-4'>Familiar: </strong>{familiars.map(familiar => <span className='badge bg-secondary mx-1 p-2'>{familiar}</span>)}</p>
                         <p><strong className='fs-4'>Tools: </strong>{tools.map(tool => <span className='badge bg-secondary mx-1 p-2'>{tool}</span>)}</p>
                     </div>
                 </div>

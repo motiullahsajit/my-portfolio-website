@@ -38,14 +38,6 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link text-white" activeClass="active"
-                                    to="blog"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={400}>Blog</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link text-white" activeClass="active"
                                     to="contact"
                                     spy={true}
                                     smooth={true}

@@ -19,9 +19,9 @@ const Contact = () => {
                 <h1 className='text-center color-brand mb-5'>Get In Touch</h1>
                 <div className="d-flex justify-content-center">
                     <form onSubmit={sendEmail} className='col-md-6'>
-                        <input className='w-100 my-2 p-2' placeholder='name' type="text" name='name' />
-                        <input className='w-100 my-2 p-2' placeholder='email' type="email" name='email' />
-                        <textarea className='w-100 my-2 p-2' placeholder='message' type="text" name='message' />
+                        <input className='w-100 my-2 p-2' placeholder='Name' type="text" name='name' />
+                        <input className='w-100 my-2 p-2' placeholder='Email' type="email" name='email' />
+                        <textarea className='w-100 my-2 p-2' placeholder='Your Message' type="text" name='message' />
                         <input type="submit" value="Send" className='w-25 btn btn-danger' />
                     </form>
                 </div>

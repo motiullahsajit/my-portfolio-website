@@ -18,7 +18,7 @@ const Project = (props) => {
     };
 
     return (
-            <div data-aos="zoom-in-up" className="row align-items-center bg-white px-2 py-3 my-4">
+            <div data-aos="fade-up" className="row align-items-center bg-white px-2 py-3 my-4">
                 <div className="col-md-7 pb-2">
                     <h3 className='color-brand'>{name}</h3>
                     <h5>{category}</h5>
