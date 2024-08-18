@@ -1,7 +1,50 @@
-.site-link a{
-    text-decoration: none;
-    font-size: 1em;
+.project-div {
+  border-radius: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }
-.site-link a:hover{
-    color: aliceblue;
+
+.project-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #353353;
+}
+
+.site-link a {
+  text-decoration: none;
+  font-size: 1em;
+  background: #353353;
+  margin-right: 0.5rem;
+}
+
+.site-link a:hover {
+  color: aliceblue;
+}
+
+.tech-stack-projects {
+  margin-top: 1rem;
+}
+
+.tech-stack-projects p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.tech-stack-projects div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.tech-stack-projects div span {
+  background: #353353;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
 }

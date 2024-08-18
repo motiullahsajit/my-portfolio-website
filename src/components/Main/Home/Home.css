@@ -1,7 +1,102 @@
-.home{
-    background-image: url('../../../images/homebg.png');
-    color: aliceblue;
-    background-position: center center;
-    background-size: cover;
-    padding: 4em 0em 3em 0em;
+.home {
+  background-image: url("../../../images/homebg.png");
+  color: aliceblue;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0rem;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home-img {
+  padding: 1rem;
+  flex: 1 1 40%;
+  max-width: 350px;
+}
+
+.home-img img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-about {
+  padding: 2.5em;
+  flex: 1 1 60%;
+}
+
+.home-about h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3em;
+}
+
+.home-about p {
+  font-size: 1.228rem;
+  line-height: 1.8;
+  margin-top: 1.5em;
+}
+
+.home-about h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.social-icons a {
+  color: aliceblue;
+  font-size: 1.3rem;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #1b5a7d;
+}
+
+.upwork-link {
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-about {
+    padding: 1.5em;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-img {
+    max-width: 200px;
+  }
+
+  .home-about h3 {
+    font-size: 2rem;
+  }
+
+  .home-about p {
+    font-size: 1rem;
+  }
 }
