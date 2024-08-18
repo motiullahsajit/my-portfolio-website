@@ -77,6 +77,8 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="nav-link text-white"
                   href="https://drive.google.com/file/d/11vbCqXopQuQyZGIPRq7qELOt0JOH2sj6/view"
                 >

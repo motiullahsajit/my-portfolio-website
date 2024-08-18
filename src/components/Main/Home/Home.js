@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <section className="home container-fluid" id="about">
       <div className="home-content container">
-        <div data-aos="fade-right" className="home-img">
+        <div className="home-img">
           <img src={myImg} alt="Motiullah Sajit" />
         </div>
-        <div data-aos="fade-left" className="home-about">
+        <div className="home-about">
           <h3>Motiullah Sajit</h3>
           <h4>sajitmotiullah@gmail.com</h4>
           <div className="social-icons">

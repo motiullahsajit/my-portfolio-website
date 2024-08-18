@@ -30,10 +30,7 @@ const Project = (props) => {
   };
 
   return (
-    <div
-      data-aos="fade-up"
-      className="row align-items-center bg-white my-4 project-div"
-    >
+    <div className="row align-items-center bg-white my-4 project-div">
       <div className="col-md-7 pb-2">
         <h3 className="color-brand project-title">{name}</h3>
         <h5>{category}</h5>

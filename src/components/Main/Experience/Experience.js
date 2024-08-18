@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Experience.css";
 
 const experienceData = [
@@ -63,7 +63,7 @@ const experienceData = [
             <li>Gain a comprehensive overview of platform dynamics.</li>
         </ul>
         </li>
-        <li>Secured the contract through Upwork: <a target="_blank"  href="https://www.upwork.com/freelancers/~01f38a315bc53adc2b">Link</a></li>
+        <li>Secured the contract through Upwork: <a target="_blank" href="https://www.upwork.com/freelancers/~01f38a315bc53adc2b">Link</a></li>
     </ul>
     `,
     techStack: [
@@ -174,12 +174,18 @@ const experienceData = [
 ];
 
 const Experience = () => {
+  const [visibleExperiences, setVisibleExperiences] = useState(3);
+
+  const handleShowMore = () => {
+    setVisibleExperiences(experienceData.length);
+  };
+
   return (
     <section className="experience container-fluid" id="experience">
       <div className="experience-content container">
         <h2 className="experience-title">Professional Milestones</h2>
         <div className="experience-list">
-          {experienceData.map((item, index) => (
+          {experienceData.slice(0, visibleExperiences).map((item, index) => (
             <div key={index} className="experience-item">
               <div className="experience-header">
                 <h3 className="company-name">
@@ -212,6 +218,17 @@ const Experience = () => {
             </div>
           ))}
         </div>
+        {visibleExperiences < experienceData.length && (
+          <div className="show-more-container">
+            <button
+              onClick={handleShowMore}
+              className="btn btn-danger"
+              style={{ background: "#353353", border: "none" }}
+            >
+              Show More
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
