@@ -79,7 +79,7 @@ const experienceData = [
   {
     company: "Team Codemars",
     companyLink: "https://team-codemars.web.app/",
-    role: "CEO",
+    role: "Founder",
     workType: "Full-Time",
     duration: "Jan 2023 – Mar 2023",
     description: `

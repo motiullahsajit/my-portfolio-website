@@ -1,6 +1,47 @@
 const ProjectsData = [
   {
     id: 1,
+    name: "Crops Armor",
+    category: "Agricultural IoT Solution || (Aug 2024 – Present)",
+    technologies: [
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Machine Learning",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Vercel",
+    ],
+    images: {
+      img1: "https://i.ibb.co.com/WnryxBD/iotdevice.jpg",
+      img2: "https://i.ibb.co.com/Ntzdd29/analysis.jpg",
+      img3: "https://i.ibb.co.com/X72Vtsr/current-stats.jpg",
+      img4: "https://i.ibb.co.com/9brjk5G/past-stats.jpg",
+      img5: "https://i.ibb.co.com/BnrmsTh/login.jpg",
+    },
+    description: `
+    Crops Armor is an innovative IoT-based solution designed to help farmers monitor and predict environmental conditions to make informed agricultural decisions. The system integrates real-time sensor data with NASA's historical datasets for enhanced predictions.
+  `,
+    features: `
+      <ul>
+        <li>Monitors real-time environmental data (temperature, humidity, soil moisture, water level, and more) via IoT sensors.</li>
+        <li>Integrates NASA datasets to provide predictive insights and trend analysis.</li>
+        <li>Utilizes machine learning algorithms to predict risks of floods and droughts based on collected data.</li>
+        <li>Provides a user-friendly web dashboard for farmers to access real-time data and predictive insights.</li>
+        <li>Secure login functionality for authenticated access to the platform.</li>
+        <li>Displays historical trends for deeper environmental analysis.</li>
+        <li>Real-time data is processed to enhance decision-making for crop management and irrigation scheduling.</li>
+      </ul>
+    `,
+    liveSite: "https://crops-armor.vercel.app/",
+    repo: "https://github.com/motiullahsajit/crops-armor",
+  },
+  ,
+  {
+    id: 2,
     name: "Swift Cart",
     category: "E-commerce Platform || (Feb 2024 – Present)",
     technologies: [
@@ -41,7 +82,7 @@ const ProjectsData = [
     repo: "https://github.com/motiullahsajit/Swift-Cart",
   },
   {
-    id: 2,
+    id: 3,
     name: "Digital",
     category: "Digital Assets Marketplace || (Jul 2024 – Present)",
     technologies: [
