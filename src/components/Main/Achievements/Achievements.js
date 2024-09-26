@@ -7,16 +7,36 @@ const achievements = [
     title: "Code Samurai Finalist 2024",
     dates: "2024",
     description: `
-      Code Samurai is a national inter-university hackathon that occurs in three phases. Our team, UNTITLED, secured 16th position in Phase 1 out of 400 teams. In Phase 2, we emerged as the sole representative from Daffodil International University among 91 teams. Throughout the competition, I led the coding efforts, shaped our web application, and developed a mobile app in the final round.
+      Led the team to 16th place out of 400 teams in Phase 1 and represented DIU in Phase 2 as the sole representative among 91 teams. Developed web and mobile solutions for efficient waste management.
+      - Web App (EcoSync): Streamlined waste management and environmental data tracking.
+      - Mobile App (Eco Connect): Built with React Native for reporting waste issues, creating events, and volunteering.
     `,
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7196532501861875714/",
+    projectLinks: [
+      {
+        name: "EcoSync (Web App)",
+        url: "https://github.com/motiullahsajit/cs24-p2-untitled",
+      },
+      {
+        name: "Eco Connect (Mobile App)",
+        url: "https://github.com/motiullahsajit/eco-connect",
+      },
+    ],
   },
   {
     id: 2,
+    title: "Take Off Programming Contest 2023",
+    dates: "2023",
+    description: `
+      Ranked 9th in Phase 1 (400 participants) and 35th in the final round (400 participants) out of 1600 in the Take Off Programming Contest organized by DIU.
+    `,
+  },
+  {
+    id: 3,
     title: "Fun with Code Programming Contest 2022",
     dates: "2022",
     description: `
-      In the programming contest organized by the CIS department, I secured first position. This contest was an excellent opportunity to demonstrate my coding skills and problem-solving abilities.
+      Secured 1st place in the CIS department's programming contest, showcasing coding skills and problem-solving abilities.
     `,
     link: "https://www.linkedin.com/feed/update/urn:li:activity:6968183101676027904/",
   },
@@ -31,18 +51,37 @@ const Achievements = () => {
           {achievements.map((achievement) => (
             <div key={achievement.id} className="achievement-card">
               <h3 className="achievement-title">{achievement.title}</h3>
-              <p className="achievement-dates">{achievement.dates}</p>
               <p className="achievement-description">
                 {achievement.description}
               </p>
-              <a
-                href={achievement.link}
-                className="achievement-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn Post
-              </a>
+              {achievement.projectLinks &&
+                achievement.projectLinks.map((project, index) => (
+                  <>
+                    <a
+                      key={index}
+                      href={project.url}
+                      className="achievement-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.name}
+                    </a>
+                    <br />
+                  </>
+                ))}
+              {achievement.link && (
+                <>
+                  <a
+                    href={achievement.link}
+                    className="achievement-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn Post
+                  </a>
+                  <br />
+                </>
+              )}
             </div>
           ))}
         </div>

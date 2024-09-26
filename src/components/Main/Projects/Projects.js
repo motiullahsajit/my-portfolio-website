@@ -22,6 +22,7 @@ const Projects = () => {
           <a
             href="https://github.com/motiullahsajit?tab=repositories"
             className="btn btn-danger"
+            target="_blank"
             style={{ background: "#353353", border: "none" }}
           >
             More Projects <FontAwesomeIcon icon={faGithub} />
