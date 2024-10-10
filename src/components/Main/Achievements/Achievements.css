@@ -59,15 +59,14 @@
   border-bottom: 1px solid #144a62;
 }
 
-/* Responsive styles */
 @media (min-width: 640px) {
   .achievements-list {
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 
   .achievement-card {
-    flex: 1;
     min-width: 300px;
   }
 }

@@ -25,7 +25,7 @@ const skillsData = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git", "GitHub", "Docker", "Adobe XD", "Figma"],
+    skills: ["Git", "GitHub", "Postman", "Docker", "Adobe XD", "Figma"],
   },
 ];
 

@@ -4,6 +4,27 @@ import "./Achievements.css";
 const achievements = [
   {
     id: 1,
+    title: "NASA Space Apps Challenge 2024",
+    dates: "2024",
+    description: `
+      Selected as one of the top 50 physical participants worldwide. Our team, Green Gladiators, received recognition from companies, mentors, and U.S. Ambassadors for developing an innovative agricultural solution leveraging NASA data to empower farmers with real-time insights.
+      - Built an IoT system to monitor crop conditions and provide actionable insights for better decision-making.
+    `,
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:1234567890123456/",
+    projectLinks: [
+      {
+        name: "Project Presentation",
+        url: "https://www.youtube.com/watch?v=zCoGuD7HUaU",
+      },
+      {
+        name: "Project Repo",
+        url: "https://github.com/motiullahsajit/crops-armor",
+      },
+    ],
+  },
+  ,
+  {
+    id: 2,
     title: "Code Samurai Finalist 2024",
     dates: "2024",
     description: `
@@ -24,7 +45,7 @@ const achievements = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Take Off Programming Contest 2023",
     dates: "2023",
     description: `
@@ -32,7 +53,7 @@ const achievements = [
     `,
   },
   {
-    id: 3,
+    id: 4,
     title: "Fun with Code Programming Contest 2022",
     dates: "2022",
     description: `

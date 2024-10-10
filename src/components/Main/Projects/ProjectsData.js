@@ -5,22 +5,21 @@ const ProjectsData = [
     category: "Agricultural IoT Solution || (Aug 2024 – Present)",
     technologies: [
       "TypeScript",
+      "React",
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Mongoose",
       "Machine Learning",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Vercel",
+      "IOT",
     ],
     images: {
       img1: "https://i.ibb.co.com/WnryxBD/iotdevice.jpg",
       img2: "https://i.ibb.co.com/Ntzdd29/analysis.jpg",
-      img3: "https://i.ibb.co.com/X72Vtsr/current-stats.jpg",
-      img4: "https://i.ibb.co.com/9brjk5G/past-stats.jpg",
-      img5: "https://i.ibb.co.com/BnrmsTh/login.jpg",
+      img3: "https://i.ibb.co.com/CPrMygz/current-stats.jpg",
+      img4: "https://i.ibb.co.com/ZSDSxC6/dashboard-bn.png",
+      img5: "https://i.ibb.co.com/ZJnsZkR/dashboard-en.png",
+      img6: "https://i.ibb.co.com/9brjk5G/past-stats.jpg",
+      img7: "https://i.ibb.co.com/BnrmsTh/login.jpg",
     },
     description: `
     Crops Armor is an innovative IoT-based solution designed to help farmers monitor and predict environmental conditions to make informed agricultural decisions. The system integrates real-time sensor data with NASA's historical datasets for enhanced predictions.
@@ -31,7 +30,6 @@ const ProjectsData = [
         <li>Integrates NASA datasets to provide predictive insights and trend analysis.</li>
         <li>Utilizes machine learning algorithms to predict risks of floods and droughts based on collected data.</li>
         <li>Provides a user-friendly web dashboard for farmers to access real-time data and predictive insights.</li>
-        <li>Secure login functionality for authenticated access to the platform.</li>
         <li>Displays historical trends for deeper environmental analysis.</li>
         <li>Real-time data is processed to enhance decision-making for crop management and irrigation scheduling.</li>
       </ul>
