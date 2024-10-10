@@ -1,7 +1,6 @@
 .project-div {
   border-radius: 8px;
   background-color: #fff;
-  border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
@@ -47,4 +46,45 @@
   font-size: 0.7rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s, color 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .project-title {
+    font-size: 1.8rem;
+  }
+
+  .site-link a {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-title {
+    font-size: 1.6rem;
+  }
+
+  .site-link a {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 1.4rem;
+  }
+
+  .site-link a {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .site-link a {
+    font-size: 0.6em;
+  }
 }

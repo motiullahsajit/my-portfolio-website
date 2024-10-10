@@ -2,12 +2,13 @@
   padding: 2rem 1rem;
   background-color: #f9f9ff;
 }
+
 .section-title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #353353;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .v-experience-list {
@@ -38,11 +39,15 @@
 
 .v-experience-description {
   font-size: 1rem;
-  color: #333333;
+  color: #353353;
 }
 
 /* Responsive styles */
 @media (min-width: 640px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
   .v-experience-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,15 +57,23 @@
     flex: 1;
     min-width: 300px;
   }
+
+  .v-experience-title {
+    font-size: 1.35rem;
+  }
+
+  .v-experience-description {
+    font-size: 1.05rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  .v-experience-card {
-    padding: 2rem;
-  }
-
   .section-title {
     font-size: 2.5rem;
+  }
+
+  .v-experience-card {
+    padding: 2rem;
   }
 
   .v-experience-title {
