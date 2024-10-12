@@ -74,6 +74,8 @@ const experienceData = [
       "Node.js",
       "Express",
       "MongoDB",
+      "DocumentDB",
+      "AWS",
     ],
   },
   {
